@@ -6,7 +6,7 @@ import Contacts from "./(sections)/Contacts";
 
 export default function Main() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between dark:bg-gray-950">
+    <main className="flex min-h-screen flex-col items-center justify-between dark:bg-gray-950 scroll-smooth">
       <div>
         {/* Home */}
         <Home />
