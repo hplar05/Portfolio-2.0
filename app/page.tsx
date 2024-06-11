@@ -1,28 +1,21 @@
 import Image from "next/image";
+import Home from "./(sections)/Home";
+import About from "./(sections)/About";
+import Projects from "./(sections)/Projects";
+import Contacts from "./(sections)/Contacts";
 
-export default function Home() {
+export default function Main() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between dark:bg-gray-950">
       <div>
         {/* Home */}
-        <section id="home" className="h-[100vh] flex items-center">
-          <div>Home</div>
-        </section>
-
+        <Home />
         {/* About */}
-        <section id="about" className="h-[100vh] flex items-center">
-          <div>About</div>
-        </section>
-
+        <About />
         {/* Projects */}
-        <section id="projects" className="h-[100vh] flex items-center">
-          <div>Projects</div>
-        </section>
-
+        <Projects />
         {/* Contacts */}
-        <section id="contacts" className="h-[100vh] flex items-center">
-          <div>Contacts</div>
-        </section>
+        <Contacts />
       </div>
     </main>
   );
