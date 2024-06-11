@@ -36,8 +36,8 @@ const Home = () => {
             </p>
             <p>
               GitHub:{" "}
-              <a href="Hplar05" className="underline">
-                github.com/hplar05
+              <a href="github.com/hplar05" className="underline">
+                Hplar05
               </a>
             </p>
           </div>
