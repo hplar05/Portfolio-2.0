@@ -12,7 +12,7 @@ const Home = () => {
             Get in Touch
           </h2>
           <p className="text-gray-400 max-w-[600px]">
-            I'd love to hear from you! Feel free to reach out with any questions
+            Id love to hear from you! Feel free to reach out with any questions
             or inquiries.
           </p>
           <div className="space-y-2">
