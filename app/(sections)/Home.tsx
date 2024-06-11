@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-[80vh] flex items-center justify-center dark:bg-gray-950 text-gray-50 "
+      className="md:h-[80vh] h-[100vh] flex items-center justify-center dark:bg-gray-950 text-gray-50 "
     >
       <div className="container grid gap-6 md:grid-cols-2 items-center">
         <div className="space-y-4">

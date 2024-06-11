@@ -14,7 +14,7 @@ const Navbar = () => {
       </Link>
 
       <div className="flex items-center space-x-8 md:mr-5 mr-0">
-        <div className="text-md">
+        <div className="text-md hidden md:block">
           <ul className="flex items-center space-x-4">
             <Link className="hover:underline underline-offset-4" href="#home">
               Home
