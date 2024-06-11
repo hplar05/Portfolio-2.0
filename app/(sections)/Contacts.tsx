@@ -29,14 +29,17 @@ const Home = () => {
               </a>
             </p>
             <p>
-              LinkedIn:{" "}
-              <a href="#" className="underline">
-                Ralph Saladino
+              Facebook:{" "}
+              <a
+                href="https://www.facebook.com/ralphforged/"
+                className="underline"
+              >
+                Hp Lar
               </a>
             </p>
             <p>
               GitHub:{" "}
-              <a href="github.com/hplar05" className="underline">
+              <a href="https://github.com/hplar05" className="underline">
                 Hplar05
               </a>
             </p>
