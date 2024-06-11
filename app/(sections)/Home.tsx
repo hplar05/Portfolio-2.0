@@ -18,9 +18,10 @@ const Home = () => {
             Frontend Developer
           </h2>
           <p className="text-gray-700 dark:text-gray-300 max-w-[600px] text-lg">
-            I am a passionate BSIT student, constantly seeking to expand my
-            knowledge in this field. I find the dynamic nature of mobile and web
-            development fascinating and enjoy discovering new possibilities.
+            I am a passionate Graduating BSIT student, constantly seeking to
+            expand my knowledge in this field. I find the dynamic nature of
+            mobile and web development fascinating and enjoy discovering new
+            possibilities.
           </p>
         </div>
         <Image

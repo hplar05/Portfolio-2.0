@@ -8,14 +8,14 @@ const Home = () => {
     >
       <div className="container flex justify-center">
         <div className="space-y-4 mb-8">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black dark:text-white">
             Get in Touch
           </h2>
-          <p className="text-gray-400 max-w-[600px]">
+          <p className=" max-w-[600px] text-gray-800 dark:text-white">
             Id love to hear from you! Feel free to reach out with any questions
             or inquiries.
           </p>
-          <div className="space-y-2">
+          <div className="space-y-2 text-gray-700 dark:text-gray-300">
             <p>
               Email:{" "}
               <a href="mailto:ralph.saladino05@gmail.com" className="underline">
@@ -31,12 +31,12 @@ const Home = () => {
             <p>
               LinkedIn:{" "}
               <a href="#" className="underline">
-                linkedin.com/in/ralph
+                Ralph Saladino
               </a>
             </p>
             <p>
               GitHub:{" "}
-              <a href="https://github.com/hplar05" className="underline">
+              <a href="Hplar05" className="underline">
                 github.com/hplar05
               </a>
             </p>
