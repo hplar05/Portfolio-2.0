@@ -16,7 +16,14 @@ const Home = () => {
             </h2>
             <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Check out some of my recent projects that showcase my skills and
-              expertise.
+              expertise. But if you want to see all my project click{" "}
+              <a
+                href="https://github.com/hplar05?tab=repositories"
+                className="underline "
+              >
+                <span>here</span>
+              </a>
+              .
             </p>
           </div>
         </div>
