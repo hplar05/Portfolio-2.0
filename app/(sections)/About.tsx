@@ -12,10 +12,11 @@ const Home = () => {
             About Me
           </h2>
           <p className="text-gray-800 dark:text-gray-300 text-xl max-w-[700px]">
-            Im a frontend developer with a passion for creating beautiful and
-            functional web applications and mobile applications. I have bit
-            experience with flutter native, react native, react js, and next js
-            but Im willing to learn more to enhance my skill and techstacks.
+            Im Ralph Saladino a frontend developer and Mobile developer with a
+            passion for creating beautiful and functional web applications and
+            mobile applications. I have bit experience with flutter native,
+            react native, react js, and next js but Im willing to learn more to
+            enhance my skill and techstacks.
           </p>
           <p className="text-gray-800 dark:text-gray-300 text-xl max-w-[700px]">
             In my free time, I enjoy exploring new design trends, learning about
