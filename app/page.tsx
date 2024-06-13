@@ -3,6 +3,7 @@ import Home from "./(sections)/Home";
 import About from "./(sections)/About";
 import Projects from "./(sections)/Projects";
 import Contacts from "./(sections)/Contacts";
+import Suggestion from "./(sections)/Suggestion";
 
 export default function Main() {
   return (
@@ -16,6 +17,8 @@ export default function Main() {
         <Projects />
         {/* Contacts */}
         <Contacts />
+        {/* Suggestion */}
+        <Suggestion />
       </div>
     </main>
   );
