@@ -4,8 +4,8 @@ import { Button } from "./ui/button";
 
 export function SuggestionInput() {
   return (
-    <div>
-      <form className="grid w-full gap-4" action="post">
+    <div className="border rounded-lg mb-20 h-[50vh] justify-center flex items-center">
+      <form className="grid w-[90%] gap-4" action="post">
         <Label htmlFor="message-2 text-lg">Your suggestions</Label>
         <Textarea
           required

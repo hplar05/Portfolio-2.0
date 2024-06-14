@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <section
       id="contacts"
-      className=" max-md:h-[250vh] h-[100vh] text-gray-50 flex justify-center items-center "
+      className=" max-md:mt-[50vh] h-[100vh] text-gray-50 flex justify-center items-center "
     >
       <div className="container flex items-center justify-center">
         <div className="space-y-4 md:mb-8">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black dark:text-white">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black dark:text-white max-md:text-center">
             Get in Touch
           </h2>
           <p className=" max-w-[600px] text-gray-800 dark:text-white">
