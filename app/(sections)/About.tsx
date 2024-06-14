@@ -7,7 +7,7 @@ const Home = () => {
       className=" h-[100vh] flex-col flex items-center justify-center "
     >
       <div className="container flex justify-center">
-        <div className="space-y-4 mb-8 text-justify">
+        <div className="space-y-4 mb-8 text-justify ">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">
             About Me
           </h2>

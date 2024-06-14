@@ -17,7 +17,7 @@ const Home = () => {
           <h2 className="text-gray-800 dark:text-white text-2xl font-medium max-md:text-center">
             Frontend Developer
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] text-lg text-justify">
+          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] text-lg max-md:text-justify">
             I am a passionate Graduating BSIT student, constantly seeking to
             expand my knowledge in this field. I find the dynamic nature of
             mobile and web development fascinating and enjoy discovering new
