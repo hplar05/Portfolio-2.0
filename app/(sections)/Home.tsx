@@ -23,7 +23,12 @@ const Home = () => {
             mobile and web development fascinating and enjoy discovering new
             possibilities.
           </p>
-          <button className="text-gray-800 dark:text-white">Download CV</button>
+
+          <button className="text-gray-800 dark:text-white">
+            <a href="https://utfs.io/f/d5eae390-5d79-4618-945d-ca9203a15408-j85spc..pdf">
+              Download CV
+            </a>
+          </button>
         </div>
         <Image
           src={Avatar}
