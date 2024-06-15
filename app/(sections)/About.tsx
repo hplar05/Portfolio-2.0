@@ -14,7 +14,7 @@ const Home = () => {
           <p className="text-gray-800 dark:text-gray-300 text-xl max-w-[700px]">
             Hi my name is Ralph Solancho Saladino, A graduating BSIT Student in
             Quezon City University. I am a frontend developer and Mobile
-            developer with a passion for creating beautiful and functional web
+            developer with a passion for creating beautiful functional web
             applications and mobile applications.
           </p>
           <p className="text-gray-800 dark:text-gray-300 text-xl max-w-[700px]">
