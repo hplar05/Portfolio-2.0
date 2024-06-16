@@ -1,4 +1,4 @@
-import { SuggestionInput } from "@/components/SuggestionInput";
+import SuggestionInput from "@/components/SuggestionInput";
 import React from "react";
 
 const Suggestion = () => {
