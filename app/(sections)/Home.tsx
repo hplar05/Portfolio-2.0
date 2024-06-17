@@ -25,7 +25,7 @@ const Home = () => {
           </p>
 
           <button className="text-gray-800 dark:text-white">
-            <a href="https://utfs.io/f/d5eae390-5d79-4618-945d-ca9203a15408-j85spc..pdf">
+            <a href="https://utfs.io/f/82d28f33-d4a5-4a0c-acd0-647d226b90e9-a6v3pz.pdf">
               Download CV
             </a>
           </button>
