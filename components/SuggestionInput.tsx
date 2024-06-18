@@ -31,8 +31,8 @@ export default function SuggestionInput() {
   };
 
   return (
-    <div className="border rounded-lg mb-20 h-[50vh] justify-center flex items-center">
-      <form onSubmit={handleSubmit(onSubmit)} className="grid w-[90%] gap-4">
+    <div className="border rounded-lg max-md:my-[10rem] mb-[10rem] h-[60vh] justify-center flex items-center">
+      <form onSubmit={handleSubmit(onSubmit)} className="grid w-[90%] gap-5">
         <Label htmlFor="message-2 text-lg">Your suggestions</Label>
         <Input {...register("name")} type="name" placeholder="Name" />
         {errors.name && (
