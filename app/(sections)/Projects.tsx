@@ -71,9 +71,10 @@ const Home = () => {
               className="rounded-t-lg object-cover"
             />
             <CardContent className="p-4">
-              <h3 className="text-lg font-bold">Seabea</h3>
+              <h3 className="text-lg font-bold">AGreenNatureConnect</h3>
               <p className="text-gray-500 dark:text-gray-400 mt-2">
-                A Landing page for Southeast Asia Outstanding Executive Awards.
+                A web app that helps farmers to connect with the people about
+                urban farming. This is our capstone system.
               </p>
             </CardContent>
           </Card>
