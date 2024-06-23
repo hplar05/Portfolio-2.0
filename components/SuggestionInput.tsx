@@ -31,12 +31,12 @@ export default function SuggestionInput() {
   };
 
   return (
-    <div className="border rounded-lg max-md:my-[10rem] mb-20 w-auto h-auto justify-center flex items-center">
+    <div className="rounded-lg  w-auto h-auto justify-center flex items-center">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="grid w-[90%] gap-5 mx-8 my-5"
       >
-        <Label htmlFor="message-2 text-lg">Your suggestions</Label>
+        <Label htmlFor="message-2 text-lg">Contact Me</Label>
         <Input {...register("name")} type="name" placeholder="Name" />
         {errors.name && (
           <p className="text-red-500">{`${errors.name.message}`}</p>
@@ -55,7 +55,7 @@ export default function SuggestionInput() {
           <p className="text-red-500">{`${errors.text.message}`}</p>
         )}
         <p className="text-sm text-muted-foreground">
-          Your suggestion will be copied to the creator.
+          Your message will be send.
         </p>
         <div>
           <Button type="submit" disabled={isSubmitting}>
