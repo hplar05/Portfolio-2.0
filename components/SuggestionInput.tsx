@@ -48,7 +48,7 @@ export default function SuggestionInput() {
         <Textarea
           {...register("text")}
           typeof="text"
-          placeholder="Type your suggestion here."
+          placeholder="Type your message here."
           id="message-2"
         />
         {errors.text && (
