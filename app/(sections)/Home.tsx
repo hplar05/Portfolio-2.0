@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Avatar from "@/components/images/avatar.png";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -14,10 +16,16 @@ const Home = () => {
             <span className="text-[#3A80EA] space-x-3">Ralph </span>
             <span>Saladino</span>
           </h1>
-          <h2 className="text-gray-800 dark:text-white text-2xl font-medium max-md:text-center">
-            Frontend Developer
+          <h2 className="animate-typing text-gray-800 dark:text-white max-sm:text-2xl text-3xl font-medium max-md:text-center">
+            <TypeAnimation
+              sequence={["Front Developer", 5000, "Mobile Developer", 5000]}
+              wrapper="span"
+              speed={50}
+              className="block"
+              repeat={Infinity}
+            />
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] text-lg max-md:text-justify">
+          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-xl text-lg max-md:text-justify">
             I am a passionate Graduating BSIT student, constantly seeking to
             expand my knowledge in this field. I find the dynamic nature of
             mobile and web development fascinating and enjoy discovering new
