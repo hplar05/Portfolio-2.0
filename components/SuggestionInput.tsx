@@ -11,6 +11,7 @@ import {
   SuggestionSchema,
   SuggestionType,
 } from "@/lib/validation/suggestionSchema";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function SuggestionInput() {
   const {
@@ -26,7 +27,7 @@ export default function SuggestionInput() {
     // todo: submit to server
     // ...
     await new Promise((resolve) => setTimeout(resolve, 4000));
-
+    toast.success("Successfully submit!");
     reset();
   };
 

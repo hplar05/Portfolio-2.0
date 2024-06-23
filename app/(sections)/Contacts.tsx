@@ -4,14 +4,14 @@ const Home = () => {
   return (
     <section
       id="contacts"
-      className=" max-md:mt-[70vh] h-[100vh] text-gray-50 flex justify-center items-center "
+      className=" max-md:mt-[90vh] h-[100vh] text-gray-50 flex justify-center items-center "
     >
       <div className="container flex items-center justify-center">
         <div className="space-y-4 md:mb-8">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black dark:text-white max-md:text-center">
             Get in Touch
           </h2>
-          <p className=" max-w-[600px] text-gray-800 dark:text-white">
+          <p className=" max-w-[600px] text-gray-800 dark:text-white max-md:text-justify  tracking-tighter">
             Id love to hear from you! Feel free to reach out with any questions
             or inquiries.
           </p>
