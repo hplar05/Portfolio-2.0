@@ -25,7 +25,7 @@ const Home = () => {
               repeat={Infinity}
             />
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-xl text-lg max-md:text-justify  tracking-tighter">
+          <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-xl text-lg text-justify tracking-tighter">
             I am a passionate Graduating BSIT student, constantly seeking to
             expand my knowledge in this field. I find the dynamic nature of
             mobile and web development fascinating and enjoy discovering new
