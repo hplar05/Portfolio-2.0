@@ -45,7 +45,7 @@ export default function SuggestionInput() {
         {errors.name && (
           <p className="text-red-500">{`${errors.name.message}`}</p>
         )}
-        <Input {...register("email")} type="email" placeholder="Email" />
+        <Input {...register("email")} placeholder="Email" />
         {errors.email && (
           <p className="text-red-500">{`${errors.email.message}`}</p>
         )}
