@@ -25,6 +25,9 @@ export default function SuggestionInput() {
 
   const onSubmit = async (data: SuggestionType) => {
     // todo: submit to server
+    toast("Your message is submitting!", {
+      icon: "⌛",
+    });
     // ...
     await new Promise((resolve) => setTimeout(resolve, 6000));
     toast.success("Successfully submit!");
