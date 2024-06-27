@@ -3,8 +3,15 @@ import React from "react";
 import Image from "next/image";
 import Avatar from "@/components/images/avatar.png";
 import { TypeAnimation } from "react-type-animation";
+import toast, { Toaster } from "react-hot-toast";
 
 const Home = () => {
+  const handlesubmit = () => {
+    new Promise((resolve) => setTimeout(resolve, 4000)).then(() => {
+      toast.success("Successfully Download!");
+    });
+  };
+
   return (
     <section
       id="home"
@@ -33,7 +40,10 @@ const Home = () => {
           </p>
 
           <button className="text-gray-800 dark:text-white">
-            <a href="https://utfs.io/f/2b41939f-1294-4a36-8f94-9a58613ae378-l4a71u.pdf">
+            <a
+              href="https://utfs.io/f/256dfa7d-c5b1-4f70-ac55-bca786e372e1-l4a71u.pdf"
+              onClick={handlesubmit}
+            >
               Download CV
             </a>
           </button>
