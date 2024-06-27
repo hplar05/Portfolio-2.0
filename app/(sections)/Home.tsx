@@ -33,7 +33,7 @@ const Home = () => {
           </p>
 
           <button className="text-gray-800 dark:text-white">
-            <a href="https://utfs.io/f/90fbe6f0-886a-4b05-8a96-7e7488ec2658-a6v3pz.pdf">
+            <a href="https://utfs.io/f/2b41939f-1294-4a36-8f94-9a58613ae378-l4a71u.pdf">
               Download CV
             </a>
           </button>
