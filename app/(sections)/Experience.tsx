@@ -25,7 +25,7 @@ export default function Experience() {
               <div className="text-muted-foreground">
                 JGO Events Management Services, Feb 2023 - Aug 2023
               </div>
-              <div className="text-muted-foreground">
+              <div className="text-muted-foreground  text-justify ">
                 Created landing page using vanilla for their clients. Have
                 proper implementation of client needs. Successfully deployed
                 their site thru hostinger and vercel.
@@ -39,7 +39,7 @@ export default function Experience() {
               <div className="text-muted-foreground">
                 MERCKZKIM, Sept 2023 - Mar 2024
               </div>
-              <div className="text-muted-foreground">
+              <div className="text-muted-foreground text-justify tracking-tighter">
                 Delivered technical support by resolving connectivity issues,
                 installing operating systems, and setting up MS Office and
                 printers, ensuring smooth daily operations. Performed
@@ -54,9 +54,9 @@ export default function Experience() {
               <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
               <div className="font-medium">Programmer, Capstone Project</div>
               <div className="text-muted-foreground">
-                Quezon City University , Nove 2023 - June 2024
+                Quezon City University, Nove 2023 - June 2024
               </div>
-              <div className="text-muted-foreground">
+              <div className="text-muted-foreground text-justify tracking-tighter">
                 Proper Implementing of function in the system with the help used
                 language. Communicating with other programmers to plan the next
                 step or next procedure in the system. Have a proper deep testing
