@@ -5,6 +5,7 @@ import Projects from "./(sections)/Projects";
 import Contacts from "./(sections)/Contacts";
 import Suggestion from "./(sections)/Suggestion";
 import { FloatingButton } from "@/components/FloatingButton";
+import Experience from "./(sections)/Experience";
 
 export default function Main() {
   return (
@@ -14,6 +15,8 @@ export default function Main() {
         <Home />
         {/* About */}
         <About />
+        {/* Experience */}
+        <Experience />
         {/* Projects */}
         <Projects />
         {/* Contacts */}
