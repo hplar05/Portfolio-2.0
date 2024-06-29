@@ -14,7 +14,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Featured Projects
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-xl text-lg max-md:text-justify  tracking-tighter">
+            <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-base text-lg max-md:text-justify  tracking-tighter">
               Check out some of my recent projects that showcase my skills and
               expertise. But if you want to see all my project click{" "}
               <a

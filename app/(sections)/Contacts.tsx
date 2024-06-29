@@ -11,7 +11,7 @@ const Home = () => {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black dark:text-white max-md:text-center">
             Get in Touch
           </h2>
-          <p className=" max-w-[600px] text-gray-800 dark:text-white max-md:text-justify  tracking-tighter">
+          <p className=" max-w-[600px] text-gray-800 dark:text-white  max-md:text-justify  tracking-tighter">
             Id love to hear from you! Feel free to reach out with any questions
             or inquiries.
           </p>
