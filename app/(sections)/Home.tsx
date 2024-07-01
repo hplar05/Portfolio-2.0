@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="md:h-[80vh] h-[78vh] flex items-center justify-center dark:bg-gray-950 text-gray-50 "
+      className="md:h-[80vh] h-[77vh] flex items-center justify-center dark:bg-gray-950 text-gray-50 "
     >
       <div className="container grid gap-6 md:grid-cols-2 items-center">
         <div className="space-y-4 ">
@@ -53,7 +53,7 @@ const Home = () => {
           width={400}
           height={400}
           alt="Ralph Saladino"
-          className="mx-auto rounded-2xl max-sm:hidden"
+          className="mx-auto rounded-2xl max-md:hidden"
         />
       </div>
     </section>
