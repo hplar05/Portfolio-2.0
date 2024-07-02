@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Avatar from "@/components/images/avatar.png";
+import Formal from "@/components/images/formalno.png";
 import { TypeAnimation } from "react-type-animation";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -49,11 +50,11 @@ const Home = () => {
           </button>
         </div>
         <Image
-          src={Avatar}
-          width={400}
-          height={400}
+          src={Formal}
+          width={450}
+          height={450}
           alt="Ralph Saladino"
-          className="mx-auto rounded-2xl max-md:hidden"
+          className="mx-auto rounded-3xl max-md:hidden"
         />
       </div>
     </section>
