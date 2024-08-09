@@ -42,7 +42,7 @@ const Home = () => {
 
           <button className="text-gray-800 dark:text-white">
             <a
-              href="https://utfs.io/f/256dfa7d-c5b1-4f70-ac55-bca786e372e1-l4a71u.pdf"
+              href="https://utfs.io/f/8dfed853-d843-4c7b-8e36-d6b5c5912096-tz98mj.pdf"
               onClick={handlesubmit}
             >
               Download CV
