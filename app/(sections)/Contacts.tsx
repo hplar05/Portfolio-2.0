@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="contacts"
-      className=" max-md:my-[350vh] md:my-[300vh]  lg-my-[100vh] text-gray-50 flex justify-center items-center "
+      className=" max-md:my-[400vh] md:my-[300vh]  lg-my-[100vh] text-gray-50 flex justify-center items-center "
     >
       <div className="container flex items-center justify-center">
         <div className="space-y-4 md:mb-8">
