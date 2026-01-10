@@ -18,7 +18,7 @@ const Home = () => {
       id="home"
       className="md:h-[80vh] h-[77vh] flex items-center justify-center dark:bg-gray-950 text-gray-50 "
     >
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center max-md:px-7">
         <div className="space-y-4 ">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-black dark:text-white max-md:text-center">
             <span className="text-[#9D00FF] space-x-3">Jerelyn </span>
