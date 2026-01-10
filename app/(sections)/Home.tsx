@@ -26,7 +26,7 @@ const Home = () => {
           </h1>
           <h2 className="animate-typing text-gray-800 dark:text-white max-sm:text-2xl text-3xl font-medium max-md:text-center">
             <TypeAnimation
-              sequence={["AI Automation Specialist", 3000, "Mobile Developer", 3000]}
+              sequence={["AI Automation Specialist", 3000, "Web Developer", 3000]}
               wrapper="span"
               speed={50}
               className="block"
