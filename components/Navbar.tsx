@@ -34,12 +34,12 @@ const Navbar = () => {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               className="hover:underline underline-offset-4"
               href="#contacts"
             >
               Contacts
-            </Link>
+            </Link> */}
           </ul>
         </div>
 

@@ -20,7 +20,7 @@ export default function Main() {
         {/* Projects */}
         <Projects />
         {/* Contacts */}
-        <Contacts />
+        {/* <Contacts /> */}
         {/* FloatingButton */}
         <FloatingButton />
       </div>

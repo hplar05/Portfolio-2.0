@@ -30,7 +30,7 @@ export default function RootLayout({
           <Toaster></Toaster>
           <Navbar />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </ThemeProvider>
       </body>
     </html>
