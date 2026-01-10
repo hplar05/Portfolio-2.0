@@ -43,7 +43,7 @@ export default function Experience() {
                 Proper Implementing of function in the system with the help used language
               </div>
             </div>
-            <div className="grid gap-1 text-sm relative">
+            {/* <div className="grid gap-1 text-sm relative">
               <div className="aspect-square w-3 bg-primary rounded-full absolute left-0 translate-x-[-29.5px] z-10 top-1" />
               <div className="font-medium">Shoppedia UX Designer</div>
               <div className="text-muted-foreground">
@@ -55,7 +55,7 @@ export default function Experience() {
                 Presentating the design thru the investors.
                 Using Figma as a tool for the initial design
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
