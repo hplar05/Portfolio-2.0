@@ -15,8 +15,8 @@ export default function Main() {
         <Home />
         {/* About */}
         <About />
-        {/* Experience */}
-        <Experience />
+        {/* Experience
+        <Experience /> */}
         {/* Projects */}
         <Projects />
         {/* Contacts */}
