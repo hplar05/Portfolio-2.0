@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="contacts"
-      className=" max-md:mt-[90vh] h-[100vh] text-gray-50 flex justify-center items-center "
+      className=" max-md:mt-[90vh] md:my-[300vh]  lg-my-[100vh] text-gray-50 flex justify-center items-center "
     >
       <div className="container flex items-center justify-center">
         <div className="space-y-4 md:mb-8">
@@ -19,7 +19,7 @@ const Home = () => {
             <p>
               Email:{" "}
               <a href="mailto:ralph.saladino05@gmail.com" className="underline">
-                ralph.saladino05@gmail.com
+                apellidojerelyn@gmail.com
               </a>
             </p>
             <p>
@@ -28,7 +28,7 @@ const Home = () => {
                 +63 09606321944
               </a>
             </p>
-            <p>
+            {/* <p>
               Facebook:{" "}
               <a
                 href="https://www.facebook.com/ralphforged/"
@@ -36,13 +36,13 @@ const Home = () => {
               >
                 Hp Lar
               </a>
-            </p>
-            <p>
-              GitHub:{" "}
-              <a href="https://github.com/hplar05" className="underline">
-                Hplar05
-              </a>
-            </p>
+            </p> */}
+              {/* <p>
+                GitHub:{" "}
+                <a href="https://github.com/hplar05" className="underline">
+                  Hplar05
+                </a>
+              </p> */}
           </div>
         </div>
       </div>

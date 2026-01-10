@@ -8,8 +8,8 @@ const Navbar = () => {
     <header className="flex item-center justify-between shadow-sm shadow-gray-200 dark:shadow-none p-4 sticky top-0 dark:bg-[#020817] bg-white">
       <Link className="space-x-2 md:ml-5 ml-0 flex items-center" href="#about">
         <h1 className="font font-bold text-md ">
-          <span className="text-[#3A80EA] space-x-3">RALPH </span>
-          <span>SALADINO</span>
+          <span className="text-[#9D00FF] space-x-3">JERELYN </span>
+          <span>APELLIDO</span>
         </h1>
       </Link>
 

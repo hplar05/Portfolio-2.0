@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Team from "@/components/images/team.jpg";
+import Team from "@/components/images/me.jpg";
 
 const Home = () => {
   return (
@@ -21,16 +21,15 @@ const Home = () => {
             About Me
           </h2>
           <p className="text-gray-800 dark:text-gray-300  max-w-[700px] max-sm:text-base text-xl  tracking-tighter">
-            Hi my name is Ralph Solancho Saladino, A graduating BSIT Student in
-            Quezon City University. I am a frontend developer and Mobile
-            developer with a passion for creating beautiful functional web
-            applications and mobile applications.
+            Hi my name is Jerelyn W. Apellido, A BSIT Student in
+            Isabela State University. I am a Web developer and AI Automation Specialist with a passion for creating beautiful functional web
+            applications and AI Automation Workflow.
           </p>
-          <p className="text-gray-800 dark:text-gray-300 max-w-[700px] max-sm:text-base text-xl  tracking-tighter">
+          {/* <p className="text-gray-800 dark:text-gray-300 max-w-[700px] max-sm:text-base text-xl  tracking-tighter">
             I have bit experience with flutter native, react native, react js,
             and next js but Im willing to learn more to enhance my skill and
             techstacks.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
