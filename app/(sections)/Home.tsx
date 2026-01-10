@@ -34,7 +34,7 @@ const Home = () => {
             />
           </h2>
           <p className="text-gray-700 dark:text-gray-300 max-w-[600px] max-sm:text-base text-xl text-justify tracking-tighter">
-            I am a BSIT student, constantly seeking to
+            I am constantly seeking to
             expand my knowledge in this field. I find the dynamic nature of
             AI Automation and Web Development fascinating and enjoy discovering new
             possibilities.

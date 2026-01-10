@@ -21,8 +21,7 @@ const Home = () => {
             About Me
           </h2>
           <p className="text-gray-800 dark:text-gray-300  max-w-[700px] max-sm:text-base text-xl  tracking-tighter">
-            Hi my name is Jerelyn W. Apellido, A BSIT Student in
-            Isabela State University. I am a Web developer and AI Automation Specialist with a passion for creating beautiful functional web
+            Hi my name is Jerelyn W. Apellido, I am a Web developer and AI Automation Specialist with a passion for creating beautiful functional web
             applications and AI Automation Workflow.
           </p>
           {/* <p className="text-gray-800 dark:text-gray-300 max-w-[700px] max-sm:text-base text-xl  tracking-tighter">
