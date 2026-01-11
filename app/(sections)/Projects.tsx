@@ -11,6 +11,7 @@ import AI4 from "@/components/images/glass-fruit-workflow.png";
 import CAP1 from "@/components/images/capstone-1.png";
 import CAP2 from "@/components/images/capstone-2.png";
 import CAP3 from "@/components/images/capstone-3.png";
+import CAP4 from "@/components/images/filipono-de.png";
 
 const Home = () => {
   return (
@@ -191,6 +192,22 @@ const Home = () => {
               <p className="text-gray-500 dark:text-gray-400 mt-2">
                 A web app that helps farmers to connect with the people about
                 urban farming. This is our capstone system.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <Image
+              src={CAP4}
+              width="500"
+              height="400"
+              alt="Project 3"
+              className="rounded-t-lg object-cover"
+            />
+            <CardContent className="p-4">
+              <h3 className="text-lg font-bold">FILIPINO DE CUISINE</h3>
+              <p className="text-gray-500 dark:text-gray-400 mt-2">
+                A Landing Page for showing the taste of Filipino De Cuisine.
               </p>
             </CardContent>
           </Card>
