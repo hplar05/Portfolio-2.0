@@ -22,12 +22,9 @@ const Navbar = () => {
             <Link className="hover:underline underline-offset-4" href="#about">
               About
             </Link>
-            {/* <Link
-              className="hover:underline underline-offset-4"
-              href="#experience"
-            >
-              Experience
-            </Link> */}
+            <Link className="hover:underline underline-offset-4" href="#tools">
+              Tools
+            </Link>
             <Link
               className="hover:underline underline-offset-4"
               href="#projects"
